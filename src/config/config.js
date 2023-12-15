@@ -15,6 +15,7 @@ export default {
     mongoUrl: process.env.MONGO_URL,
     adminName: process.env.ADMIN_NAME,
     adminPassword: process.env.ADMIN_PASSWORD,
+    sessionSecret: process.env.SESSION_SECRET,
     persistence: process.env.PERSISTENCE,
     env: process.env.ENV.toLowerCase() || 'dev'
 }

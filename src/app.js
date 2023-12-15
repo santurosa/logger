@@ -39,7 +39,7 @@ app.use(session({
         mongoUrl: urlMongo,
         ttl: 3600
     }),
-    secret: "rehr34edfyh",
+    secret: config.sessionSecret,
     resave: false,
     saveUninitialized: false
 }));
